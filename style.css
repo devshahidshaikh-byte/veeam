@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-bottom: solid 2px;
+}
+ 
+html, body{
+    width: 100%;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+.full-screen-viewer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contanier{
+    position: absolute;
+}
+
+#1{
+        width: 100%;
+            height: 500px;
+                background-size: cover;
+}
+#2{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    border: 5px;
+}
+
+#3{
+        width: 100%;
+            height: 500px;
+                background-size: cover;
+                }
+/* The container must be relative so the links position themselves inside it */
+.page-container {
+    position: relative;
+        display: inline-block; /* Keeps the container the exact size of the image */
+            width: 100%;           /* Or whatever width your layout uses */
+            }
+
+            /* Ensure the image behaves properly */
+            .page-img {
+                display: block;
+                    width: 100%;
+                        height: auto;
+                        }
+
+                        /* The invisible clickable boxes */
+                        .overlay-link {
+                            text-decoration: none;
+                            display:flex;
+                            position: absolute;
+                                /* Optional: uncomment the line below while debugging to see where the box is */
+                                    /* background: rgba(255, 0, 0, 0.3); */ 
+                                        cursor: pointer;
+                                            z-index: 10;
+                                            }
+
+
+
+
+
+
+/*.text{
+    position: relative;
+    left: 17%;
+    bottom: 35%;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.linkedin{
+    position: relative;
+    bottom: 34%;
+    left: 17%;
+    font-weight: 900;
+    text-decoration: none;
+}
+.x{
+    position: relative;
+    bottom: 25%;
+    left: 25%;
+    font-weight: 900;
+    text-decoration: none;
+    
+}/*
